@@ -1,10 +1,9 @@
 {
-    name: "tmux-sessionizer.nu"
+    name: "tmux-sessionizer"
     version: 0.1.0
     description: "A sessionizer for Tmux"
     documentation: "https://github.com/amtoine/tmux-sessionizer/blob/main/README.md"
     maintainers: [@amtoine]
     license: "https://github.com/amtoine/tmux-sessionizer/blob/main/LICENSE"
     type: "script"
-    scripts: ["tmux-sessionizer.nu"]
 }
