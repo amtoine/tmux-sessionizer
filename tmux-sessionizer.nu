@@ -1,7 +1,7 @@
 #!/usr/bin/env nu
 use std log
 
-const TMUX_SESSION_FILE = "/tmp/tmux-session"
+const TMUX_SESSION_FILE = ($nu.home-path | path join ".local" "state" "tmux-session")
 
 $env.LOG_FORMAT = "%ANSI_START%%DATE%|%LEVEL%|%MSG%%ANSI_STOP%"
 
