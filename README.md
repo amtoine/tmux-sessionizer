@@ -22,5 +22,8 @@ run the following
 tmux-sessionizer.nu --help
 ```
 
+## configuration
+see [`tmux.conf`](tmux.conf)
+
 [Nupm]: https://github.com/nushell/nupm
 [Nupm instructions]: https://github.com/nushell/nupm#-installation
